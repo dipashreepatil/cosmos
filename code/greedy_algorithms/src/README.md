@@ -6,6 +6,10 @@ A greedy algorithm is an algorithmic paradigm that follows the problem solving h
 In the words of _Jessica Su_, we have:
 
 A greedy algorithm finds the best solution to a problem one step at a time.  At each step, the algorithm makes the choice that improves the solution the most, even if that choice makes future steps less fruitful.  Sometimes this gives you the right answer to the problem.
+A greedy algorithm can be solved using three simple steps :
+SELECT : Select an element from array or input vector such that it has potential of satisfying optimality criterion (selection policy) .
+FEASIBLE : Checks if selected elemtnt satisfies the feasibility criterion (constraint).
+UNION (solution,x) : Union integrates element in the solution array or solution vector with optimal cost/profit.
 
 Examples:
 * Let's say you're at a restaurant and have ordered several dishes.  When each dish comes out, you can choose to eat some of it, or save your stomach for the next dish.
