@@ -28,6 +28,7 @@ BinarySearch(A[0..N-1], value, low, high) {
 ```
 
 ## Pseudocode (Iterative approach)
+```
 //initially set low = 0 (starting index) , high=N-1
 BinarySearch(A[0,1,...N-1],value,low,high)
 {
@@ -43,5 +44,5 @@ BinarySearch(A[0,1,...N-1],value,low,high)
       
       
 }
-
+```
 Collaborative effort by [OpenGenus](https://github.com/opengenus)
