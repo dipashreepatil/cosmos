@@ -1,5 +1,6 @@
 # Binary search
 The binary search algorithm is used for finding an element in a sorted array. It has the average performance O(log n).
+Binary search approach is normally preffered for larger N and sorted array elements. 
 
 ## Procedure
 1. Find middle element of the array.
@@ -25,5 +26,22 @@ BinarySearch(A[0..N-1], value, low, high) {
     return mid
 }
 ```
+
+## Pseudocode (Iterative approach)
+//initially set low = 0 (starting index) , high=N-1
+BinarySearch(A[0,1,...N-1],value,low,high)
+{
+  loop while low < high 
+      mid=(low+high)/2;
+    //compare value with the middle element of array
+          Check if value==A[mid] yes then 
+              return mid;
+          else check if value > A[mid]
+              set low = N+1
+          else
+              set high = N-1
+      
+      
+}
 
 Collaborative effort by [OpenGenus](https://github.com/opengenus)
