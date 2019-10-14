@@ -32,15 +32,15 @@ BinarySearch(A[0..N-1], value, low, high) {
 //initially set low = 0 (starting index) , high=N-1
 BinarySearch(A[0,1,...N-1],value,low,high)
 {
-  loop while low < high 
-      mid=(low+high)/2;
-    //compare value with the middle element of array
+  loop while low < high do:
+       mid=(low+high)/2;
+       //compare value with the middle element of array
           Check if value==A[mid] yes then 
               return mid;
           else check if value > A[mid]
-              set low = N+1
+              set low <- N+1
           else
-              set high = N-1
+              set high <- N-1
       
       
 }
