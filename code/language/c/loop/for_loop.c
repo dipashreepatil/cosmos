@@ -1,5 +1,5 @@
 /* for loop is used in c where initial condion , final condition are known and variable is incremented or decremented step wise.*/
-//example to print numbers in range 11 to 20 :
+//c program to print numbers in range 11 to 20 :
 
 void main()
 {
